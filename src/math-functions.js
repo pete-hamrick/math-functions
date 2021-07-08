@@ -59,10 +59,9 @@ export function sumAndMultiplyThreeNumbers(a, b, c) { //eslint-disable-line
     let totalSum = sum(number[0], c);
     let mult = multiply(a, b);
     let totalMult = multiply(mult[0], c);
-    let str1 = '4 and 7 and 5 sum to 16.';
     let str2 = 'The product of 4 and 7 and 5 is 140.';
 
-    return [totalSum[0], totalMult[0], str1, str2];
+    return [totalSum[0], totalMult[0], `${a} and ${b} and ${c} sum to ${totalSum[0]}.`, `The product of ${a} and ${b} and ${c} is ${totalMult[0]}.`];
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
