@@ -13,7 +13,7 @@ example and uses the values that were input into the function:
 
 export function sum(a, b) {
     let num = a + b;
-    let str = 'The sum of 4 and 7 is 11.';
+    let str = `The sum of ${a} and ${b} is ${num}.`;
     return [num, str];
 }
 
@@ -132,7 +132,24 @@ This function should be dynamic, accepting an array of any length.
 */
 
 export function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+    //
+    //find the length of dynamic array
+    //some sort of for loop multiplying i and i+1
+    //until i = length
+    //
+    //  const length = dynamicArray.length;
+    // for(let i = 0; i < length; i++) {
+    //    //  ???
+    // }
+    // return ;
+    // OR
+    // something with dynamicArray.reduce?
+    // 
+    // 
+    // 
+    // 
+    // 
+    // 
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
